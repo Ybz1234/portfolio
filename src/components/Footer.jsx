@@ -14,7 +14,7 @@ export default function Footer() {
                         <li className='my-2'>Server Development</li>
                         <li className='my-2'>Web Development</li>
                         <li className='my-2'>Quality Assurance</li>
-                        <li className='my-2'>Database creation</li>
+                        <li className='my-2'>Database Creation</li>
                     </ul>
                 </div>
                 <div className='mb-4 md:mb-0'>
