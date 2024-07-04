@@ -11,6 +11,7 @@ import MoreLanguages from "./components/MoreLanguages"
 import Nav from "./components/Nav"
 
 import { BallTriangle } from "react-loader-spinner"
+import Styling from "./components/Styling"
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -33,6 +34,7 @@ function App() {
             <BackEnd />
             <Databases />
             <FrontEnd />
+            <Styling />
             <MoreLanguages />
             <Environments />
             <Footer />
