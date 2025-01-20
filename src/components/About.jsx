@@ -5,10 +5,10 @@ import FileOpenTwoTone from '@mui/icons-material/FileOpenTwoTone';
 
 export default function About() {
     const handleDownload = () => {
-        const pdfUrl = '/Yehonatan_cvs_2024.pdf';
+        const pdfUrl = '/YehonatanCvs2025.pdf';
         const anchor = document.createElement('a');
         anchor.href = pdfUrl;
-        anchor.download = 'Yehonatan_Ben_Zaken_CV.pdf';
+        anchor.download = 'YehonatanCvs2025.pdf';
         anchor.click();
     };
 
