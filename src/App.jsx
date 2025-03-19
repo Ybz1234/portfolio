@@ -12,6 +12,8 @@ import Nav from "./components/Nav"
 
 import { BallTriangle } from "react-loader-spinner"
 import Styling from "./components/Styling"
+import { MackBookContainer } from "./components/MackBookContainer"
+import { SparklesContainer } from "./components/SparklesContainer"
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -37,6 +39,8 @@ function App() {
             <Styling />
             <MoreLanguages />
             <Environments />
+            <MackBookContainer />
+            <SparklesContainer />
             <Footer />
           </div>
       }

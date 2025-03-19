@@ -16,13 +16,20 @@
     "@mui/icons-material": "^5.15.20",
     "@mui/material": "^5.15.20",
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "@tabler/icons-react": "^3.31.0",
+    "@tsparticles/engine": "^3.8.1",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.8.1",
     "aos": "^3.0.0-beta.6",
+    "clsx": "^2.1.1",
+    "motion": "^12.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.2.1",
     "react-loader-spinner": "^6.1.6",
     "react-scroll": "^1.9.0",
-    "styled-components": "^6.1.11"
+    "styled-components": "^6.1.11",
+    "tailwind-merge": "^3.0.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

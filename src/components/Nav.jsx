@@ -15,16 +15,16 @@ export default function Nav() {
                     <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">About</li>
                 </Link>
                 <Link spy={true} smooth={true} to="BackEnd">
-                    <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Back-End</li>
+                    <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Server</li>
                 </Link>
                 <Link spy={true} smooth={true} to="Databases">
                     <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Databases</li>
                 </Link>
                 <Link spy={true} smooth={true} to="FrontEnd">
-                    <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Front-End</li>
+                    <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Client</li>
                 </Link>
                 <Link spy={true} smooth={true} to="Styling">
-                    <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Styling frameworks</li>
+                    <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Styling</li>
                 </Link>
                 <Link spy={true} smooth={true} to="MoreLanguages">
                     <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">More Languages</li>
@@ -49,16 +49,16 @@ export default function Nav() {
                                 <li className="hover:textfuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">About</li>
                             </Link>
                             <Link spy={true} smooth={true} to="BackEnd">
-                                <li className="hover:textfuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Back-End</li>
+                                <li className="hover:textfuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Server</li>
                             </Link>
                             <Link spy={true} smooth={true} to="Databases">
                                 <li className="hover:textfuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Databases</li>
                             </Link>
                             <Link spy={true} smooth={true} to="FrontEnd">
-                                <li className="hover:textfuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Front-End</li>
+                                <li className="hover:textfuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Client</li>
                             </Link>
                             <Link spy={true} smooth={true} to="Styling">
-                                <li className="hover:textfuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Styling frameworks</li>
+                                <li className="hover:textfuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Styling</li>
                             </Link>
                             <Link spy={true} smooth={true} to="MoreLanguages">
                                 <li className="hover:textfuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">More Languages</li>
